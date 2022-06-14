@@ -1,0 +1,15 @@
+.jogo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.quadro {
+    border: 1px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
